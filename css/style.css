@@ -262,9 +262,7 @@ img {
     background: var(--cloud);
     margin-bottom: 8px;
 }
-.examples {
-    padding: 120px 0;
-}
+
 .team-card {
     background-color: var(--cloud);
     padding: 120px 0;
