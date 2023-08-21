@@ -724,6 +724,8 @@ border-top: none;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -754,9 +756,9 @@ border-top: none;
 .agreement-checkbox-icon {
     fill: currentColor;
 }
-input[type="checkbox"]:checked + .agreement-checkbox {
+input[type="checkbox"]:checked + label:nth-child(1) {
     background-color: var(--ocean);
-    border-color: var(--ocean);
+    border-color: none;
     color: var(--white);
 }
 .modal-form-link {
