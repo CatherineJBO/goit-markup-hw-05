@@ -416,6 +416,9 @@ img {
     justify-content: center;
     gap: 24px;
 }
+.label-footer {
+    margin: 0;
+}
 .form-input-footer {
     width: 264px;
     height: 40px;
@@ -453,6 +456,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.64px;
     padding: 8px 24px;
+    min-width: 165px;
     color: var(--white);
     fill: var(--white);    
     border: none;
