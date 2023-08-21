@@ -760,8 +760,8 @@ border-top: none;
 
 input[type="checkbox"]:checked + label > span.agreement-checkbox {
     background-color: var(--ocean);
-    border-color: none;
-    fill: var(--white);
+    border: none;
+    fill: var(--cloud);
 }
 .modal-form-link {
     color: var(--primary-brand);
