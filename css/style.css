@@ -608,7 +608,10 @@ border-top: none;
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 24px;
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
     transform: translate(-50%, -50%);
     transition-property: transform;
     transition-duration: 250ms;
@@ -664,8 +667,10 @@ border-top: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 48px;
     margin-bottom: 16px;
+}
+.modal-form-wrapper {
+    margin-bottom: 8px;
 }
 .modal-form-label {
     display: block;
